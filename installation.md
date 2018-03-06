@@ -73,11 +73,11 @@ An example of this configuration is:
   blockchainExplorerOpts: {
     livenet: {
       provider: 'insight',
-      url: 'http://insight.dinero.io',
+      url: 'https://insights.dinerocoin.org',
     },
     testnet: {
       provider: 'insight',
-      url: 'http://test-insight.dinero.io,
+      url: 'http://test-insights.dinerocoin.org',
     },
   }
 ```
