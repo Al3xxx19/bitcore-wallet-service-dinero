@@ -9,9 +9,9 @@ var config = {
   // Uncomment to set the number or process (will use the # of available CPUs by default)
   // clusterInstances: 4,
 
-  // https: true,
-  // privateKeyFile: 'private.pem',
-  // certificateFile: 'cert.pem',
+   https: true,
+   privateKeyFile: 'private.pem',
+   certificateFile: 'cert.pem',
   ////// The following is only for certs which are not
   ////// trusted by nodejs 'https' by default
   ////// CAs like Verisign do not require this
@@ -41,12 +41,12 @@ var config = {
     btc: {
       livenet: {
         provider: 'insight',
-        url: 'http://insight.dinero.io',
+        url: 'https://insight.dinero.io',
         apiPrefix:'/insight-api-dinero'
       },
       testnet: {
         provider: 'insight',
-        url: 'http://testnet-insight.dinero.io',
+        url: 'https://testnet-insight.dinero.io',
         apiPrefix:'/insight-api-dinero'
         // url: 'http://localhost:3001',
         // Multiple servers (in priority order)
