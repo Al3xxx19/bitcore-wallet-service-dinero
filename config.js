@@ -41,12 +41,12 @@ var config = {
     btc: {
       livenet: {
         provider: 'insight',
-        url: 'https://insight.dinero.io',
+        url: 'https://insights.dinerocoin.org',
         apiPrefix:'/insight-api-dinero'
       },
       testnet: {
         provider: 'insight',
-        url: 'https://testnet-insight.dinero.io',
+        url: 'https://testnet-insights.dinerocoin.org', //Don't exist yet
         apiPrefix:'/insight-api-dinero'
         // url: 'http://localhost:3001',
         // Multiple servers (in priority order)
